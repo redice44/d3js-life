@@ -116,4 +116,4 @@ function getBottomRightNeighbor(i, width, height) {
     return getIndex(getRight(i, width, height), getBottom(i, width, height), width);
 }
 init();
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=svg-life.js.map
