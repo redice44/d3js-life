@@ -7,7 +7,7 @@ function init() {
     var envX = 100;
     var envY = 100;
     var initAliveRate = 0.3;
-    var speed = 200;
+    var speed = Math.floor(1000 / 60);
     var matrix = initData(envX, envY, initAliveRate);
     grid(matrix, envX, envY);
     d3.interval(function () {

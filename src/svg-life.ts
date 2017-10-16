@@ -7,7 +7,7 @@ function init() {
   const envX = 100;
   const envY = 100;
   const initAliveRate = 0.3;
-  const speed = 200;
+  const speed = Math.floor(1000/60);
 
   let matrix = initData(envX, envY, initAliveRate);
 
